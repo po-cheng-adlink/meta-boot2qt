@@ -37,7 +37,7 @@ inherit qmake5
 require recipes-qt/qt5/qt5-git.inc
 
 QT_GIT_PROJECT = "qt-apps"
-QT_MODULE_BRANCH = "5.9"
+QT_MODULE_BRANCH = "master"
 
 SRC_URI += "file://b2qt-gadget-network.sh \
            file://defaults \
