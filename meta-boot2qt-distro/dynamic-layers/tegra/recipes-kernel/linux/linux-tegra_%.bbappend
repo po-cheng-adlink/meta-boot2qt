@@ -27,6 +27,4 @@
 ##
 ############################################################################
 
-KERNEL_ROOTSPEC = "root=/dev/mmcblk\${devnum}p1 rw rootwait"
-
 export KCFLAGS = "-Wno-error=address-of-packed-member -Wno-error=missing-attributes"

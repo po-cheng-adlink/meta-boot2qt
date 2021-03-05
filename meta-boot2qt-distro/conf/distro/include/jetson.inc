@@ -27,6 +27,11 @@
 ##
 ############################################################################
 
+# without the distro_bootpart that's not supported by stock u-boot
+KERNEL_ROOTSPEC = "root=/dev/mmcblk${devnum}p1 rw rootwait"
+KERNEL_ROOTSPEC_jetson-nano-2gb-devkit = "root=/dev/mmcblk0p1 rw rootwait"
+KERNEL_ROOTSPEC_jetson-nano-devkit = "root=/dev/mmcblk0p1 rw rootwait"
+
 INITRAMFS_MAXSIZE = "165888"
 IMAGE_CLASSES += "image_types_tegra"
 IMAGE_FSTYPES += "tegraflash"
