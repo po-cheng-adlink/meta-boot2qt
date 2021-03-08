@@ -30,7 +30,7 @@
 DESCRIPTION = "Qt Safe Renderer"
 
 LICENSE = "GPL-3.0 | The-Qt-Company-Commercial"
-LIC_FILES_CHKSUM = "file://${BOOT2QTBASE}/licenses/The-Qt-Company-Commercial;md5=c8b6dd132d52c6e5a545df07a4e3e283"
+LIC_FILES_CHKSUM = "file://${BOOT2QTBASE}/licenses/The-Qt-Company-Commercial;md5=213dc233cc25f71b1447fbe95ec90adf"
 
 inherit qt5-module sdk-sources distro_features_check
 
