@@ -34,7 +34,7 @@
           fetch="ssh://codereview.qt-project.org/yocto"/>
   <project name="meta-qt5"
            remote="qt"
-           revision="8f5b3c0138efe2bf103826198ca841bc2f9c01d9"
+           revision="8457443c85567cc33c4314ca59d846e8b18749b7"
            path="sources/meta-qt5"/>
 
   <!-- NXP -->
